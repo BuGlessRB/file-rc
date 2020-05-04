@@ -224,6 +224,7 @@ while test $# -gt 0 -a ${state} != III ; do
       --help)   dohelp 
 		exit 0
 		;;
+      --skip-systemd-native)  ;;  # Ignore option
       --quiet)  BEQUIET=--quiet
 		;;
       --force)  FORCE=yes
